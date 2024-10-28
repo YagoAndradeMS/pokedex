@@ -6,7 +6,7 @@ export default function Navbar() {
   return (
     <nav className='flex justify-between items-center py-[1em] px-[1em] mb-[2em] bg-slate-800 text-white '>
       <div className='flex justify-center items-center'>
-        <Image src={p} width={30} height={30} alt='PokeNext' layout='fixed' />
+        <Image src={p} width={30} height={30} alt='PokeNext' style={{ objectFit: 'contain' }} />
         <h1 className='font-bold ml-[.5em] text-2xl'>PokeNext</h1>
       </div>
 

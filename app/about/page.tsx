@@ -10,7 +10,7 @@ export default function About() {
         serve sua finalidade e etc
       </p>
       <div className='flex justify-center mt-4'>
-        <Image src={char} width='300' height='300' alt='Charizard' />
+        <Image src={char} width={300} height={300} alt='Charizard'  style={{ objectFit: 'contain' }}/>
       </div>
     </div>
   );

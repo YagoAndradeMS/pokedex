@@ -75,7 +75,7 @@ const Pokemon = () => {
   }
 
   // Mapeia os tipos para exibir seus nomes
-  const typeNames = pokemonData.types
+  pokemonData.types
     .map(typeInfo => typeInfo.type.name)
     .join(', ');
 
