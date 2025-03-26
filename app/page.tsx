@@ -90,7 +90,11 @@ export default function Home() {
         <Image src={p} width='50' height='50' alt='PokeNext' />
       </div>
 
-      <div className='flex flex-wrap justify-between items-center max-w-[1100px] my-0 mx-auto text-center'>
+      <div
+        className='
+      grid grid-cols-[repeat(auto-fit,minmax(350px,1fr))] my-0 text-center
+      '
+      >
         {pokemons.map(pokemon => (
           <Card key={pokemon.id} pokemon={pokemon} />
         ))}
